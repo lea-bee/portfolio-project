@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #924d57;
+  --secondary-color: #ffe2e7;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -39,7 +39,8 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  /*background-color: #fdeee2;*/
+  background-color: #fff0e4;
   text-align: center;
   padding: 160px 20px;
 }
@@ -87,7 +88,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background-color: #d3a5a5;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -97,8 +98,8 @@ p {
 
 .btn-branding-outline {
   color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
+  border: 2px solid var(--branding-color);
+  border-radius: 6px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -110,7 +111,6 @@ p {
 
 nav {
   padding: 20px 0;
-  background-color: #2e5445;
 }
 
 nav ul {
@@ -127,18 +127,19 @@ nav li {
 
 nav a {
   text-decoration: none;
-  /* color: #272142;*/
-  color: #70a87e;
+  color: black;
+  opacity: 80%;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: #30aa4f;
+  color: #e9a7ab;
 }
 
 .nav-container {
   max-width: 100%;
+  background-color: #fcf8f0;
 }
 
 .project-description {
@@ -156,7 +157,9 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  /*background-color: #ffefe2;*/
+  /*background-color: #fdefe9;*/
+  background-color: #fff0e4;
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -188,6 +191,14 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer p a {
+  color: #d3a5a5;
+}
+
+footer strong {
+  color: #e9a7ab;
 }
 
 @media (max-width: 900px) {
