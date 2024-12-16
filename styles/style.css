@@ -39,7 +39,6 @@ p {
 }
 
 .hero {
-  /*background-color: #fdeee2;*/
   background-color: #fff0e4;
   text-align: center;
   padding: 160px 20px;
@@ -170,8 +169,6 @@ footer {
 }
 
 footer .contact-box {
-  /*background-color: #ffefe2;*/
-  /*background-color: #fdefe9;*/
   background-color: #fff0e4;
   padding: 30px 120px;
   border-radius: 10px;
