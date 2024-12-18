@@ -38,6 +38,21 @@ p {
   line-height: 30px;
 }
 
+span a {
+  color: #d3a5a5;
+}
+
+span a:hover {
+  color: #ca6b79;
+}
+
+span h3 {
+  color: #d3a5a5;
+}
+span h3:hover {
+  color: #ca6b79;
+}
+
 .hero {
   background-color: #fff0e4;
   text-align: center;
